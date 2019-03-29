@@ -66,31 +66,3 @@ $(document).ready(function() {
     $("#output").append('<li>' + "The modulus is: " + result + '</li>');
   });
 });
-// $("form#compute").submit(function(event) {
-//     event.preventDefault();
-//     var number1 = parseFloat($("#number1").val());
-//     var number2 = parseFloat($("#number2").val());
-//     var result;
-//
-//
-//     // $("#output").text(result);
-//     // var number1 = parseFloat($("#number1").val());
-//     // var number2 = parseFloat($("#number2").val());
-//     // var result = subtract(number1, number2);
-//     // $("#output").text(result);
-//     //
-//     // var number1 = parseFloat($("#number1").val());
-//     // var number2 = parseFloat($("#number2").val());
-//     // var result = multiply(number1, number2);
-//     // $("#output").text(result);
-//     //
-//     // var number1 = parseFloat($("#number1").val());
-//     // var number2 = parseFloat($("#number2").val());
-//     // var result = modulo(number1, number2);
-//     // $("#output").text(result);
-//     //
-//     // var number1 = parseFloat($("#number1").val());
-//     // var number2 = parseFloat($("#number2").val());
-//     // var result = divide(number1, number2);
-//     $("#output").text(result);
-// });
